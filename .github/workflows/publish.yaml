@@ -43,6 +43,7 @@ jobs:
         os: [ubuntu-latest]
     runs-on: ${{ matrix.os }}
     permissions:
+      contents: write
       actions: read
       checks: write
       issues: read
